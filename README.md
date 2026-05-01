@@ -1,4 +1,4 @@
-# Batch Prediction Pipeline — Titanic Survival Classifier
+# Batch Prediction Pipeline - Titanic Survival Classifier
 
 ## Project Description
 
