@@ -218,6 +218,12 @@ The following files are excluded from version control (see `.gitignore`):
 - `models/titanic_model.pkl` — binary model file, generated locally
 - `venv/` — virtual environment
 
+To regenerate excluded files locally, run:
+```bash
+python train_model.py       # generates models/titanic_model.pkl
+python create_database.py   # generates database/predictions.db
+```
+
 To reproduce the project after cloning:
 1. Download `data/titanic.csv` manually.
 2. Follow the **How to Run** steps above.
