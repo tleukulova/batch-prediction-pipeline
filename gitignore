@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Database file (large binary — exclude from git)
+database/predictions.db
+
+# Trained model (large binary — exclude from git)
+models/titanic_model.pkl
+
+# Environment variables
+.env
